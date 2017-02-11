@@ -669,7 +669,7 @@ p, ol, ul, table, pre {
   margin-bottom:2.5em;
 }
 
-h1 {}
+h1 {font-size:170%;}
 h2 {font-size:150%;}
 h3 {font-size:120%;}
 h4 {}
@@ -689,4 +689,21 @@ body {
 tbody tr th:first-child {
   display:none;
   width:1% !important;
+}
+
+.title-meta small{
+	font-size:90% !important;
+	color:#6f6f6f !important;
+}
+
+th {
+	text-align:center;
+}
+
+tbody tr {
+	border-bottom:1px solid #e0e0e0;
+}
+
+tbody tr:nth-child(even) {
+	background-color:#f0f0f0;
 }
